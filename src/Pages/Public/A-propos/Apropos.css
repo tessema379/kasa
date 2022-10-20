@@ -1,0 +1,20 @@
+.APropos {
+    background-color: #f6f6f6;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px 50px;
+    padding: 56px 50px;
+    margin-top: 53px;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .APropos {
+        background-color: unset;
+        padding: 0px 0px;
+        margin-top: 43px;
+    }
+}
