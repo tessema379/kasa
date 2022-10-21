@@ -1,11 +1,12 @@
 .APropos {
-    background-color: #f6f6f6;
+    /* background-color: #f6f6f6; */
     border-radius: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* align-items: center; */
     gap: 50px 50px;
-    padding: 56px 50px;
+    padding: 0px 208px;
     margin-top: 53px;
 }
 

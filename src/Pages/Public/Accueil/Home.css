@@ -8,7 +8,7 @@
     margin-top: 53px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1440px) {
 
     .liste-logements {
         background-color: unset;
@@ -31,7 +31,7 @@
     }
 }
 
-/* @media screen and (max-width: 375px) {
+@media screen and (max-width: 375px) {
 
     .liste-logements {
         background-color: unset;
@@ -40,4 +40,4 @@
         padding: 0px 0px;
         margin-top: 10px;
     }
-} */
+}

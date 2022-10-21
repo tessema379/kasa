@@ -74,7 +74,7 @@ const Logement = () => {
     if (isLoading) return (<h3>Chargement...</h3>)
     return (
 
-        <section className="Logement">
+        <section className="logement">
             <Gallery pictures={logement.pictures} />
             <div className="details_container">
                 <div className="details_title_container">

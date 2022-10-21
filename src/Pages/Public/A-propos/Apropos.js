@@ -4,9 +4,9 @@ import React from 'react';
 import "@/Pages/Public/A-propos/Apropos.css";
 
 import Hero from "@/Components/Hero/Hero";
-import HeroImg from "@/Assets/Images/Pages/Apropos/HeroApropos.png";
 import DropDown from "@/Components/DropDown/DropDown";
 
+import HeroImg from "@/Assets/Images/Pages/Apropos/HeroApropos.png";
 
 // fonction de la page Apropos
 const Apropos = () => {

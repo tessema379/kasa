@@ -1,6 +1,7 @@
 .Card {
     position: relative;
     height: 100%;
+    width: 100%;
     min-height: 340px;
     border-radius: 10px;
 }
@@ -42,9 +43,9 @@
     font-weight: 500;
 }
 
-@media screen and (min-width: 580px) {
+@media screen and (min-width: 1440px) {
     .Card {
-        min-height: 255px;
+        min-height: 300px;
     }
 }
 
