@@ -30,3 +30,14 @@
         margin-top: 10px;
     }
 }
+
+/* @media screen and (max-width: 375px) {
+
+    .liste-logements {
+        background-color: unset;
+        gap: 20px 0;
+        grid-template-columns: 1fr;
+        padding: 0px 0px;
+        margin-top: 10px;
+    }
+} */

@@ -42,7 +42,13 @@
     font-weight: 500;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 580px) {
+    .Card {
+        min-height: 255px;
+    }
+}
+
+@media screen and (min-width: 375px) {
     .Card {
         min-height: 255px;
     }

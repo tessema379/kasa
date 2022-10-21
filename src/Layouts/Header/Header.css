@@ -41,6 +41,8 @@ nav {
 
     header nav {
         /*Mettre le header en colomn*/
+        display: flex;
+        flex-direction: column;
     }
 
 }
