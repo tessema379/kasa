@@ -7,13 +7,17 @@
 
 /* Contenu */
 .App {
-  /* display: flex; */
-  flex-direction: column;
+  height: 100%;
+}
+
+html {
   height: 100%;
 }
 
 body {
   height: 100vh;
+  flex-direction: column;
+  display: flex;
 }
 
 #root {
