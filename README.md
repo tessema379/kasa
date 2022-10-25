@@ -1,6 +1,6 @@
-# Commencer avec l’application Create React
+# Installation de NPM 
 
-Ce projet a été lancé avec [Create React App] (https://github.com/facebook/create-react-app).
+**$ npm install**
 
 ## Installation de CRACO
 
@@ -10,7 +10,7 @@ Profitez de tous les avantages de create-react-app et de la personnalisation san
 
 Tout ce que vous avez à faire est de créer votre application en utilisant create-react-app et personnaliser le fichier de configuration.
 
-### Installer la dernière version du paquet de npm:**
+### Installer la dernière version du paquet de npm:
 
 **$ npm i @craco/craco**
 
@@ -51,16 +51,13 @@ Ouvrez [http://localhost:3000](http://localhost:3000) pour l’afficher dans vot
 La page se recharge lorsque vous apportez des modifications.
 Vous pouvez également voir des erreurs de peluches dans la console.
 
-
-
-
 ---
 
-# Getting Started with Create React App
+# NPM Installation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**$ npm install**
 
-## Installation of CRACO
+## CRACO Installation
 
 Create React App Configuration Override is an easy and comprehensible configuration layer for create-react-app.
 
