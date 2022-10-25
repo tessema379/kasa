@@ -1,14 +1,12 @@
 // import des modules necessaires
-import React, { useEffect, useState, useRef } from 'react'; //
-import { useParams } from 'react-router-dom';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React, { useEffect, useState } from 'react'; //
+import { useNavigate, useParams } from 'react-router-dom';
 
 import '@/Pages/Public/Fiche-logement/Logement.css';
 
 import LogementService from "@/_Services/Logement.service.js";
 
 import Gallery from "@/Components/Gallery/Gallery";
-
 import Profil from "@/Components/Profil/Profil";
 import Stars from "@/Components/Stars/Stars";
 import Tag from "@/Components/Tag/Tag";
@@ -21,21 +19,20 @@ const Logement = () => {
     const [isLoading, setIsLoading] = useState(true);
 
     let { id } = useParams();
-
-    const flag = useRef(false)
+    const navigate = useNavigate();
 
     useEffect(() => {
-        if (flag.current === false) {
-            FunctionLogement();
-        }
-
-        return () => flag.current = true;
+        FunctionLogement();
     }, [])
 
     const FunctionLogement = async () => {
         const OneLogement = await LogementService.GetOneLogement(id);
-        setLogement(OneLogement);
-        setIsLoading(false);
+        if (OneLogement) {
+            setLogement(OneLogement);
+            setIsLoading(false);
+        } else {
+            navigate('/404');
+        }
     };
 
     const displayTags = (tags) => {
@@ -67,7 +64,6 @@ const Logement = () => {
                 </ul>
             )
         }
-
     }
 
     console.log(logement)
@@ -95,7 +91,6 @@ const Logement = () => {
                 </DropDown>
             </div>
         </section>
-
 
     );
 

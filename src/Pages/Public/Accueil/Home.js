@@ -28,6 +28,7 @@ const Home = () => {
             </ul>
         </section>
     );
+
 };
 
 // export de la page home pour l'appeler dans le router 

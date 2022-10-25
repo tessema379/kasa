@@ -14,6 +14,7 @@ const Erreur404 = () => {
             </div>
         </>
     );
+
 }
 
 export default Erreur404;

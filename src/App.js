@@ -17,6 +17,7 @@ const App = () => {
       </BrowserRouter>
     </div>
   );
+
 }
 
 // export de la fonction app pour appel dans l'index

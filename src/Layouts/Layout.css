@@ -5,14 +5,14 @@
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 50px;
+    min-height: 100%;
 }
 
 main {
-    height: calc(100% - 68px);
+    /* height: calc(100% - 68px); */
     width: 100%;
-    margin: auto;
+    margin: 0 auto;
     margin-top: 3%;
-
 }
 
 @media screen and (max-width: 490px) {

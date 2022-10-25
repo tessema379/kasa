@@ -22,6 +22,7 @@ const Apropos = () => {
             </ul>
         </section>
     );
+
 };
 
 // export de la page Apropos pour l'appeler dans le router 

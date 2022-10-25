@@ -6,6 +6,7 @@ import Logo from '@/Assets/Images/LogoFooter.png'
 
 // fonction d'affichage du Footer
 const Footer = () => {
+
     return (
         <footer>
             <div className="footer-container">
@@ -14,6 +15,7 @@ const Footer = () => {
             </div>
         </footer>
     );
+
 }
 
 export default Footer;
