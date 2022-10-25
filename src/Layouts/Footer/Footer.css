@@ -9,7 +9,7 @@ footer {
     display: flex;
     flex-direction: column;
     height: 152px;
-    padding: 25px 0px;
+    padding: 24px 0px;
 }
 
 .footer-container img {
