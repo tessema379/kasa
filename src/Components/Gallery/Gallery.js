@@ -19,6 +19,7 @@ const Gallery = ({ pictures }) => {
         )
     }
 
+
     return (
         <div className="slideshow">
             <img className="arrowLeft" src={ArrowLeft} alt="flèche gauche" onClick={() => previousImage()} />

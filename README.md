@@ -25,9 +25,21 @@ Cependant, vous devez être conscient que ces versions sont expérimentales.
 my-app
 ├── node_modules
 ├── craco.config.js
-└── package.json
+└── package.json 
 
-### Mettez à jour les appels existants pour réagir-scripts dans la section scripts de votre fichier package.json pour utiliser la CLI craco :
+**Copier coller le script ci-dessous dans le fichier craco.config.js**
+
+// fonction pour mettre le fichier src comme fichier de ref avec le @ dans les appel d'import
+const path = require('path')
+module.exports = {
+    webpack: {
+        alias: {
+            '@': path.resolve(__dirname, 'src'),
+        }
+    }
+}
+
+### Mettez à jour les appels existants pour react-scripts dans la section scripts de votre fichier package.json pour utiliser la CLI craco :
 
 /* package.json */
 
@@ -39,7 +51,7 @@ my-app
     "eject" : "react-scripts eject"
 }
 
-Nbre de scénarios disponibles
+## Scripts disponibles
 
 Démarrez votre application pour le développement :
 
