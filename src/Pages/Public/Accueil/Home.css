@@ -1,4 +1,5 @@
 .liste-logements {
+    max-width: 1240px;
     background-color: #f6f6f6;
     border-radius: 25px;
     display: grid;
@@ -6,17 +7,6 @@
     gap: 50px 50px;
     padding: 56px 50px;
     margin-top: 53px;
-}
-
-@media screen and (max-width: 1440px) {
-
-    .liste-logements {
-        background-color: unset;
-        gap: 20px 0;
-        grid-template-columns: 1fr;
-        padding: 0px 0px;
-        margin-top: 43px;
-    }
 }
 
 

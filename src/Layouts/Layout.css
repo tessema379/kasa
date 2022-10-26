@@ -2,9 +2,9 @@
 .layout {
     display: flex;
     flex-direction: column;
-    max-width: 1440px;
+    max-width: 1240px;
     margin: 0 auto;
-    padding: 0 50px;
+    padding: 0 20px;
     min-height: 100%;
 }
 
@@ -15,7 +15,7 @@ main {
     margin-top: 3%;
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 355px) {
     .layout {
         margin: 0px 20px;
         height: 100%;

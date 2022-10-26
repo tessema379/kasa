@@ -43,7 +43,7 @@
     font-weight: 500;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1240px) {
     .Card {
         min-height: 300px;
     }

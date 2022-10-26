@@ -1,5 +1,5 @@
 .APropos {
-    /* background-color: #f6f6f6; */
+    /* max-width: 1240px; */
     border-radius: 25px;
     display: flex;
     flex-direction: column;
@@ -9,11 +9,12 @@
     margin-top: 53px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 938px) {
 
     .APropos {
         background-color: unset;
         padding: 0px 0px;
         margin-top: 43px;
     }
+
 }
