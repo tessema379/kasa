@@ -42,10 +42,12 @@ nav {
     header nav {
         /*Mettre le header en colomn*/
         display: flex;
-        /* justify-content: space-around; */
         justify-content: flex-end;
         flex-direction: column;
     }
 
+    /* .navlink {
+        text-transform: lowercase;
+    } */
 
 }
